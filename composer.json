@@ -1,0 +1,11 @@
+{
+    "require": {
+        "poymanov/brackets_balanced": "1.*",
+        "symfony/console": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "commands\\": "./commands"
+        }
+    }
+}

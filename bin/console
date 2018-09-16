@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require_once(dirname(__DIR__) . '/vendor/autoload.php');
+
+use Symfony\Component\Console\Application;
+use commands\CheckCommand;
+
+$app = new Application('String balance checker');
+$app->add(new CheckCommand);
+$app->run();
+
+
